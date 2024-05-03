@@ -13,6 +13,12 @@ struct Campeao {
     var nome: String
     var role: String
     var dificuldade: String
+
+    init(nome: String, role: String, dificuldade: String) {
+        self.nome = nome
+        self.role = role
+        self.dificuldade = dificuldade
+    }
 }
 
 // Função para cadastrar um novo campeão
